@@ -360,6 +360,9 @@
 "Assets/Class2rh(scirpt))/Scripts/Tests.cs"
 "Assets/Class3th (Gat Component)/Scripts/Moive.cs"
 "Assets/Class3th (Gat Component)/Scripts/StoneUnit.cs"
+"Assets/Class4th(Translate))/Scrips/AirCraft.cs"
+"Assets/Class4th(Translate))/Scrips/Cloud.cs"
+"Assets/Class4th(Translate))/Scrips/PositionMiddie.cs"
 -langversion:9.0
 
 /deterministic
