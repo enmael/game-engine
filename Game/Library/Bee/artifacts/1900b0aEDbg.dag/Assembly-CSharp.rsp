@@ -368,6 +368,7 @@
 "Assets/Class6th(User Interface)/Scripts/Select.cs"
 "Assets/Class7th (Prefab))/Scripts/Health.cs"
 "Assets/Class7th (Prefab))/Scripts/Mummy.cs"
+"Assets/Class8 th(Instantiate))/Scripts/CreeteManager.cs"
 -langversion:9.0
 
 /deterministic

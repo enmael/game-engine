@@ -15,7 +15,7 @@ C:/Users/Administrator/Desktop/game-engine/Game
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-50691
+50620
 Successfully changed project path to: C:/Users/Administrator/Desktop/game-engine/Game
 C:/Users/Administrator/Desktop/game-engine/Game
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,12 +49,12 @@ C:/Users/Administrator/Desktop/game-engine/Game
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [1072] Host "[IP] 192.168.0.44 [Port] 0 [Flags] 2 [Guid] 1228741687 [EditorId] 1228741687 [Version] 1048832 [Id] WindowsEditor(7,I-03) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [1964] Host "[IP] 192.168.0.44 [Port] 0 [Flags] 2 [Guid] 3280374687 [EditorId] 3280374687 [Version] 1048832 [Id] WindowsEditor(7,I-03) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [1072] Host "[IP] 192.168.0.44 [Port] 0 [Flags] 2 [Guid] 1228741687 [EditorId] 1228741687 [Version] 1048832 [Id] WindowsEditor(7,I-03) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [1964] Host "[IP] 192.168.0.44 [Port] 0 [Flags] 2 [Guid] 3280374687 [EditorId] 3280374687 [Version] 1048832 [Id] WindowsEditor(7,I-03) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 15 workers.
-Refreshing native plugins compatible for Editor in 5.30 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 4.64 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.20f1 (61c2feb0970d)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/Resources/UnitySubsystems
@@ -70,20 +70,20 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56900
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56828
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.006005 seconds.
-- Loaded All Assemblies, in  0.373 seconds
+Registered in 0.005890 seconds.
+- Loaded All Assemblies, in  0.318 seconds
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 1718 ms
+Android Extension - Scanning For ADB Devices 186 ms
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  2.054 seconds
-Domain Reload Profiling: 2427ms
-	BeginReloadAssembly (123ms)
+- Finished resetting the current domain, in  0.490 seconds
+Domain Reload Profiling: 808ms
+	BeginReloadAssembly (100ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
@@ -91,26 +91,26 @@ Domain Reload Profiling: 2427ms
 		CreateAndSetChildDomain (1ms)
 	RebuildCommonClasses (30ms)
 	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (52ms)
-	LoadAllAssembliesAndSetupDomain (158ms)
-		LoadAssemblies (122ms)
+	initialDomainReloadingComplete (48ms)
+	LoadAllAssembliesAndSetupDomain (130ms)
+		LoadAssemblies (99ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (156ms)
-			TypeCache.Refresh (154ms)
-				TypeCache.ScanAssembly (140ms)
+		AnalyzeDomain (128ms)
+			TypeCache.Refresh (126ms)
+				TypeCache.ScanAssembly (114ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (2054ms)
+	FinalizeReload (491ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1994ms)
+		SetupLoadedEditorAssemblies (437ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (1814ms)
+			InitializePlatformSupportModulesInManaged (279ms)
 			SetLoadedEditorAssemblies (4ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (2ms)
-			ProcessInitializeOnLoadAttributes (121ms)
-			ProcessInitializeOnLoadMethodAttributes (52ms)
+			ProcessInitializeOnLoadAttributes (106ms)
+			ProcessInitializeOnLoadMethodAttributes (45ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -118,8 +118,8 @@ Domain Reload Profiling: 2427ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.810 seconds
-Refreshing native plugins compatible for Editor in 2.04 ms, found 3 plugins.
+- Loaded All Assemblies, in  0.585 seconds
+Refreshing native plugins compatible for Editor in 1.71 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Package Manager log level set to [2]
@@ -127,47 +127,47 @@ Package Manager log level set to [2]
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.914 seconds
-Domain Reload Profiling: 1724ms
-	BeginReloadAssembly (159ms)
+- Finished resetting the current domain, in  0.751 seconds
+Domain Reload Profiling: 1336ms
+	BeginReloadAssembly (135ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (5ms)
+		DisableScriptedObjects (6ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (27ms)
-	RebuildCommonClasses (39ms)
-	RebuildNativeTypeToScriptingClass (21ms)
-	initialDomainReloadingComplete (79ms)
-	LoadAllAssembliesAndSetupDomain (511ms)
-		LoadAssemblies (410ms)
+		CreateAndSetChildDomain (21ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (34ms)
+	LoadAllAssembliesAndSetupDomain (377ms)
+		LoadAssemblies (283ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (198ms)
-			TypeCache.Refresh (175ms)
-				TypeCache.ScanAssembly (149ms)
-			ScanForSourceGeneratedMonoScriptInfo (16ms)
-			ResolveRequiredComponents (5ms)
-	FinalizeReload (915ms)
+		AnalyzeDomain (171ms)
+			TypeCache.Refresh (152ms)
+				TypeCache.ScanAssembly (135ms)
+			ScanForSourceGeneratedMonoScriptInfo (13ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (751ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (746ms)
+		SetupLoadedEditorAssemblies (608ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (27ms)
+			InitializePlatformSupportModulesInManaged (21ms)
 			SetLoadedEditorAssemblies (5ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (88ms)
-			ProcessInitializeOnLoadAttributes (599ms)
-			ProcessInitializeOnLoadMethodAttributes (21ms)
-			AfterProcessingInitializeOnLoad (5ms)
+			BeforeProcessingInitializeOnLoad (77ms)
+			ProcessInitializeOnLoadAttributes (483ms)
+			ProcessInitializeOnLoadMethodAttributes (19ms)
+			AfterProcessingInitializeOnLoad (3ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (8ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 3.15 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (5ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 1.75 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3104 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 32 unused Assets / (57.5 KB). Loaded Objects now: 3574.
-Memory consumption went from 133.9 MB to 133.9 MB.
-Total: 7.100700 ms (FindLiveObjects: 0.466900 ms CreateObjectMapping: 0.727800 ms MarkObjects: 5.643500 ms  DeleteObjects: 0.261400 ms)
+Unloading 3106 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 32 unused Assets / (57.5 KB). Loaded Objects now: 3576.
+Memory consumption went from 134.1 MB to 134.0 MB.
+Total: 4.452600 ms (FindLiveObjects: 0.335700 ms CreateObjectMapping: 0.560800 ms MarkObjects: 3.433400 ms  DeleteObjects: 0.121700 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -184,52 +184,468 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 402.333601 seconds.
-  path: Assets/Class6th(User Interface)/Asset/Fantasy Wooden GUI  Free/normal_ui_set A/UI board Large stone.png
-  artifactKey: Guid(7066e0747291df44fa5c2bf93bee3a6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Class6th(User Interface)/Asset/Fantasy Wooden GUI  Free/normal_ui_set A/UI board Large stone.png using Guid(7066e0747291df44fa5c2bf93bee3a6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ffc643bcc273da5082f3a7e25248139') in 0.116104 seconds
+  Time since last request: 846.424485 seconds.
+  path: Assets/Class8 th(Instantiate))/Scenes
+  artifactKey: Guid(a4836c7b820b84640a1bf89d0de6f3bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Class8 th(Instantiate))/Scenes using Guid(a4836c7b820b84640a1bf89d0de6f3bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62b398ea1e13a2be8c5f9d7b29fb654c') in 0.002162 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
+Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Class6th(User Interface)/Asset/Fantasy Wooden GUI  Free/normal_ui_set A/1_normal_ui_set-free.png
-  artifactKey: Guid(f3e42cb7317f6f14186e2c2267014de2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Class6th(User Interface)/Asset/Fantasy Wooden GUI  Free/normal_ui_set A/1_normal_ui_set-free.png using Guid(f3e42cb7317f6f14186e2c2267014de2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a384a4c456dcae12d77c67a197d1e4f9') in 0.060742 seconds
+  Time since last request: 8.188302 seconds.
+  path: Assets/Class8 th(Instantiate))/Scenes/Game.unity
+  artifactKey: Guid(c9bf6836d078d1147982888110ed7673) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Class8 th(Instantiate))/Scenes/Game.unity using Guid(c9bf6836d078d1147982888110ed7673) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab342e55ecda05d528bdb1ffcd82ed9b') in 0.000406 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
+Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Class6th(User Interface)/Asset/Fantasy Wooden GUI  Free/normal_ui_set A/Exclamation_Gray.png
-  artifactKey: Guid(f73f68fe6815f5548a6c2a61b9e49add) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Class6th(User Interface)/Asset/Fantasy Wooden GUI  Free/normal_ui_set A/Exclamation_Gray.png using Guid(f73f68fe6815f5548a6c2a61b9e49add) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f867ea8a3a055c233c89334f10719a2') in 0.029276 seconds
+  Time since last request: 456.980693 seconds.
+  path: Assets/Class7th (Prefab))/Assets
+  artifactKey: Guid(4a9680d991317734f98bde078f0ace90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Class7th (Prefab))/Assets using Guid(4a9680d991317734f98bde078f0ace90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b7b727469835b1d43e8b86416abbbc5') in 0.000359 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 9.247763 seconds.
+  path: Assets/Class8 th(Instantiate))/Assets
+  artifactKey: Guid(a91fb725250466d4dbc326f8ff5f547f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Class8 th(Instantiate))/Assets using Guid(a91fb725250466d4dbc326f8ff5f547f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bd5695a15a26ef61276d48642040996') in 0.000353 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 180.774343 seconds.
+  path: Assets/Class8 th(Instantiate))/Assets/Polygon-Lite Survival Collection
+  artifactKey: Guid(d03fa38ded586584f90e407cb03355fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Class8 th(Instantiate))/Assets/Polygon-Lite Survival Collection using Guid(d03fa38ded586584f90e407cb03355fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2e7b0fbf1d319bbb46088d42eb2bebe') in 0.000373 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 6.775191 seconds.
+  path: Assets/Class8 th(Instantiate))/Assets/Polygon-Lite Survival Collection/Prefabs
+  artifactKey: Guid(e62fbaf9c24111144b80fa2d57663abb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Class8 th(Instantiate))/Assets/Polygon-Lite Survival Collection/Prefabs using Guid(e62fbaf9c24111144b80fa2d57663abb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09418391c29518f89afeb464bc062c0a') in 0.000358 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.066610 seconds.
+  path: Assets/Class8 th(Instantiate))/Assets/Polygon-Lite Survival Collection/Prefabs/Apple_01.prefab
+  artifactKey: Guid(6db7680dca4eb2748a7339cb3bc13d14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Class8 th(Instantiate))/Assets/Polygon-Lite Survival Collection/Prefabs/Apple_01.prefab using Guid(6db7680dca4eb2748a7339cb3bc13d14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18a67058f98f3b9911dc4ea8e809fdae') in 0.083487 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Class8 th(Instantiate))/Assets/Polygon-Lite Survival Collection/Prefabs/SM_Scrap_Metal_01.prefab
+  artifactKey: Guid(77ff5fc6b3b6f5a4cb0fe574d6726a93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Class8 th(Instantiate))/Assets/Polygon-Lite Survival Collection/Prefabs/SM_Scrap_Metal_01.prefab using Guid(77ff5fc6b3b6f5a4cb0fe574d6726a93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9709d76c737a22dc29ab6d58ea8ab29') in 0.017297 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Class8 th(Instantiate))/Assets/Polygon-Lite Survival Collection/Prefabs/Meat_03.prefab
+  artifactKey: Guid(f3834b0b997a98f4abd2393ccf97366b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Class8 th(Instantiate))/Assets/Polygon-Lite Survival Collection/Prefabs/Meat_03.prefab using Guid(f3834b0b997a98f4abd2393ccf97366b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53fbcbc854440a0f001e8c16fcec140a') in 0.030069 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
 ========================================================================
 Received Import Request.
   Time since last request: 0.000016 seconds.
-  path: Assets/Class6th(User Interface)/Asset/Fantasy Wooden GUI  Free/normal_ui_set A/Division line.png
-  artifactKey: Guid(b7d245916891cca47a0144e12a82e086) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Class6th(User Interface)/Asset/Fantasy Wooden GUI  Free/normal_ui_set A/Division line.png using Guid(b7d245916891cca47a0144e12a82e086) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ae9f6de8ad3cecce7bdde7874a1ef1d') in 0.030390 seconds
+  path: Assets/Class8 th(Instantiate))/Assets/Polygon-Lite Survival Collection/Prefabs/SM_FIREWOOD.prefab
+  artifactKey: Guid(3a1b2d1882e5641459491581339d29c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Class8 th(Instantiate))/Assets/Polygon-Lite Survival Collection/Prefabs/SM_FIREWOOD.prefab using Guid(3a1b2d1882e5641459491581339d29c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a8a754b88442b6d6eb977a321f42783') in 0.010682 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Class8 th(Instantiate))/Assets/Polygon-Lite Survival Collection/Prefabs/SM_Vertical_Handle_01.prefab
+  artifactKey: Guid(580b4dae3deb3ea4e975a4bf33fa4387) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Class8 th(Instantiate))/Assets/Polygon-Lite Survival Collection/Prefabs/SM_Vertical_Handle_01.prefab using Guid(580b4dae3deb3ea4e975a4bf33fa4387) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e33c4823c3d214790b5b4d9a6549c4d0') in 0.011203 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Class8 th(Instantiate))/Assets/Polygon-Lite Survival Collection/Prefabs/SM_Chainsaw.prefab
+  artifactKey: Guid(6230fa9fa4c316c49b43bcaedfd466df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Class8 th(Instantiate))/Assets/Polygon-Lite Survival Collection/Prefabs/SM_Chainsaw.prefab using Guid(6230fa9fa4c316c49b43bcaedfd466df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4457d3c7507bcd4da73b9dfce9d8100') in 0.012840 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Class8 th(Instantiate))/Assets/Polygon-Lite Survival Collection/Prefabs/SM_Large_Magazine_For_Army_Pistol.prefab
+  artifactKey: Guid(e68efa9d411601746957290d91332127) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Class8 th(Instantiate))/Assets/Polygon-Lite Survival Collection/Prefabs/SM_Large_Magazine_For_Army_Pistol.prefab using Guid(e68efa9d411601746957290d91332127) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74a0c64433f6969ed1a07eb22838300a') in 0.012156 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Class8 th(Instantiate))/Assets/Polygon-Lite Survival Collection/Prefabs/Homemade_Medical_Splint.prefab
+  artifactKey: Guid(37476453262801641b9ba6c5a30a8098) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Class8 th(Instantiate))/Assets/Polygon-Lite Survival Collection/Prefabs/Homemade_Medical_Splint.prefab using Guid(37476453262801641b9ba6c5a30a8098) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d6ef57cebf9589c43b455bf9e0e2c69') in 0.012158 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Class8 th(Instantiate))/Assets/Polygon-Lite Survival Collection/Prefabs/Flask.prefab
+  artifactKey: Guid(3ff9c98c0990fce468bb0d49a51b6461) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Class8 th(Instantiate))/Assets/Polygon-Lite Survival Collection/Prefabs/Flask.prefab using Guid(3ff9c98c0990fce468bb0d49a51b6461) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6e9af7c17cc25fb88d6ad7af1597613') in 0.012285 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Class8 th(Instantiate))/Assets/Polygon-Lite Survival Collection/Prefabs/SM_HOOK_FOR_Fishing_Rod_02.prefab
+  artifactKey: Guid(21f69cbf9e7cd174d8737093cebdf481) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Class8 th(Instantiate))/Assets/Polygon-Lite Survival Collection/Prefabs/SM_HOOK_FOR_Fishing_Rod_02.prefab using Guid(21f69cbf9e7cd174d8737093cebdf481) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '384bf9ab6ad9683f63adbbdf800da1bd') in 0.013001 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 46
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Class8 th(Instantiate))/Assets/Polygon-Lite Survival Collection/Prefabs/SM_Canister_01.prefab
+  artifactKey: Guid(0f2d5ce1d5cb3a741a65c988a7f1ed22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Class8 th(Instantiate))/Assets/Polygon-Lite Survival Collection/Prefabs/SM_Canister_01.prefab using Guid(0f2d5ce1d5cb3a741a65c988a7f1ed22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0162bdd407d7df57c890ff5614e4fd4') in 0.011127 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Class8 th(Instantiate))/Assets/Polygon-Lite Survival Collection/Prefabs/SM_Collimator_Sight_A_01.prefab
+  artifactKey: Guid(129eda89f2b005c45a74bd52224c6076) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Class8 th(Instantiate))/Assets/Polygon-Lite Survival Collection/Prefabs/SM_Collimator_Sight_A_01.prefab using Guid(129eda89f2b005c45a74bd52224c6076) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87f0f3395f97c15ecacc7f632bb7cf77') in 0.011215 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Class8 th(Instantiate))/Assets/Polygon-Lite Survival Collection/Prefabs/SM_Handguard_For_Submachine_Gun_02.prefab
+  artifactKey: Guid(cdf94fedf7b2c124ab933abe0e1c5b00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Class8 th(Instantiate))/Assets/Polygon-Lite Survival Collection/Prefabs/SM_Handguard_For_Submachine_Gun_02.prefab using Guid(cdf94fedf7b2c124ab933abe0e1c5b00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87e7ff5a5d56e4db70d403b3894f3bd0') in 0.011218 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Class8 th(Instantiate))/Assets/Polygon-Lite Survival Collection/Prefabs/SM_Magazine_For_Special_Submachine_Gun.prefab
+  artifactKey: Guid(eebf9633a5556074fa8426026d1c460f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Class8 th(Instantiate))/Assets/Polygon-Lite Survival Collection/Prefabs/SM_Magazine_For_Special_Submachine_Gun.prefab using Guid(eebf9633a5556074fa8426026d1c460f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '211cc5176637dedb118a48f15868bd3e') in 0.010737 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
 ========================================================================
 Received Import Request.
   Time since last request: 0.000018 seconds.
-  path: Assets/Class6th(User Interface)/Asset/Fantasy Wooden GUI  Free/normal_ui_set A/IRONY TITLE  Large.png
-  artifactKey: Guid(054411784c3fdf74d9db120b4a792a71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Class6th(User Interface)/Asset/Fantasy Wooden GUI  Free/normal_ui_set A/IRONY TITLE  Large.png using Guid(054411784c3fdf74d9db120b4a792a71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e63bf43ead9a848829cedd17dd5e9c9') in 0.031355 seconds
+  path: Assets/Class8 th(Instantiate))/Assets/Polygon-Lite Survival Collection/Prefabs/SM_Workbench.prefab
+  artifactKey: Guid(405182fb1a70a9d4a8a4c06cae1e6b5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Class8 th(Instantiate))/Assets/Polygon-Lite Survival Collection/Prefabs/SM_Workbench.prefab using Guid(405182fb1a70a9d4a8a4c06cae1e6b5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e39ad006f1a3d650f20aedbd7afa9ed') in 0.012887 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Class8 th(Instantiate))/Assets/Polygon-Lite Survival Collection/Prefabs/SM_Sledgehammer.prefab
+  artifactKey: Guid(c1261337aad64ef4db60b9b168b33feb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Class8 th(Instantiate))/Assets/Polygon-Lite Survival Collection/Prefabs/SM_Sledgehammer.prefab using Guid(c1261337aad64ef4db60b9b168b33feb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cfdf3fdd215b8fa792a1f85f73c049b') in 0.013001 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Class8 th(Instantiate))/Assets/Polygon-Lite Survival Collection/Prefabs/Bonfire_01.prefab
+  artifactKey: Guid(6046a64e832cdad44ac9e18fe66d19f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Class8 th(Instantiate))/Assets/Polygon-Lite Survival Collection/Prefabs/Bonfire_01.prefab using Guid(6046a64e832cdad44ac9e18fe66d19f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '802e6698637c35539911b7be0ad7ec70') in 0.010925 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Class8 th(Instantiate))/Assets/Polygon-Lite Survival Collection/Prefabs/Small_Canned_Food_C_03.prefab
+  artifactKey: Guid(9406672675d366049a5cf427d4fe7332) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Class8 th(Instantiate))/Assets/Polygon-Lite Survival Collection/Prefabs/Small_Canned_Food_C_03.prefab using Guid(9406672675d366049a5cf427d4fe7332) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8cc3d5627b1eebf551cad64959b9d07') in 0.013470 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Class8 th(Instantiate))/Assets/Polygon-Lite Survival Collection/Prefabs/SM_GAS_CYLINDER_01.prefab
+  artifactKey: Guid(845771c8faf6ff848a08dc9973e39f41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Class8 th(Instantiate))/Assets/Polygon-Lite Survival Collection/Prefabs/SM_GAS_CYLINDER_01.prefab using Guid(845771c8faf6ff848a08dc9973e39f41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a45941321f7963d9534b83ca070491db') in 0.013434 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Class8 th(Instantiate))/Assets/Polygon-Lite Survival Collection/Prefabs/SM_Log.prefab
+  artifactKey: Guid(1e63d2a1731e95a4bbee54952e67f2b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Class8 th(Instantiate))/Assets/Polygon-Lite Survival Collection/Prefabs/SM_Log.prefab using Guid(1e63d2a1731e95a4bbee54952e67f2b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c334dd1b3cc4d617915d06590e158fa1') in 0.014673 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Class8 th(Instantiate))/Assets/Polygon-Lite Survival Collection/Prefabs/SM_Army_Pistol.prefab
+  artifactKey: Guid(b52a2a857d903434facf521b55ad8bfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Class8 th(Instantiate))/Assets/Polygon-Lite Survival Collection/Prefabs/SM_Army_Pistol.prefab using Guid(b52a2a857d903434facf521b55ad8bfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8a65b1debd6ecbdbda6574c3a5eaf0b') in 0.012765 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 28
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Class8 th(Instantiate))/Assets/Polygon-Lite Survival Collection/Prefabs/Meat_01.prefab
+  artifactKey: Guid(c6606374ad6058448b3ce4a22865ff19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Class8 th(Instantiate))/Assets/Polygon-Lite Survival Collection/Prefabs/Meat_01.prefab using Guid(c6606374ad6058448b3ce4a22865ff19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11a86304e0bc939881ff91c7050d1ada') in 0.013090 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Class8 th(Instantiate))/Assets/Polygon-Lite Survival Collection/Prefabs/Canned_food_A_01.prefab
+  artifactKey: Guid(036c576504fa16147906e501b1a57384) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Class8 th(Instantiate))/Assets/Polygon-Lite Survival Collection/Prefabs/Canned_food_A_01.prefab using Guid(036c576504fa16147906e501b1a57384) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cafabe8ee40c5274e621e4459a0b2363') in 0.014313 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Class8 th(Instantiate))/Assets/Polygon-Lite Survival Collection/Prefabs/SM_Muffler_04.prefab
+  artifactKey: Guid(5c9ddf07179e6a9488ccb9ebb6c30ba7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Class8 th(Instantiate))/Assets/Polygon-Lite Survival Collection/Prefabs/SM_Muffler_04.prefab using Guid(5c9ddf07179e6a9488ccb9ebb6c30ba7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb22cea812b27f694ece1ae7455d7867') in 0.017195 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Class8 th(Instantiate))/Assets/Polygon-Lite Survival Collection/Prefabs/SM_Barrel_Closed_01_A.prefab
+  artifactKey: Guid(41d2cf6fa61ab7d49a842763be600249) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Class8 th(Instantiate))/Assets/Polygon-Lite Survival Collection/Prefabs/SM_Barrel_Closed_01_A.prefab using Guid(41d2cf6fa61ab7d49a842763be600249) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71ae8ee4c4fe87a307d323ac91cf3a74') in 0.016354 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Class8 th(Instantiate))/Assets/Polygon-Lite Survival Collection/Prefabs/SM_Log_laying.prefab
+  artifactKey: Guid(63a58d29feb4cf64081e1f4a8e1b6844) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Class8 th(Instantiate))/Assets/Polygon-Lite Survival Collection/Prefabs/SM_Log_laying.prefab using Guid(63a58d29feb4cf64081e1f4a8e1b6844) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10e0e169d8876432e46f22bb5bccf58f') in 0.013471 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Class8 th(Instantiate))/Assets/Polygon-Lite Survival Collection/Prefabs/SM_ARAMID_FABRIC.prefab
+  artifactKey: Guid(0bc308d5d4320ef4384e58e1eb73428a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Class8 th(Instantiate))/Assets/Polygon-Lite Survival Collection/Prefabs/SM_ARAMID_FABRIC.prefab using Guid(0bc308d5d4320ef4384e58e1eb73428a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c72ed57c22f88c2133d23a774a98edb3') in 0.017940 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Class8 th(Instantiate))/Assets/Polygon-Lite Survival Collection/Prefabs/SM_Camping_Knife.prefab
+  artifactKey: Guid(ce2204ad7743b3445befdd8da95cda27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Class8 th(Instantiate))/Assets/Polygon-Lite Survival Collection/Prefabs/SM_Camping_Knife.prefab using Guid(ce2204ad7743b3445befdd8da95cda27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04ef84db03f03345fca3efea4044a1a3') in 0.013178 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Class8 th(Instantiate))/Assets/Polygon-Lite Survival Collection/Prefabs/SM_Magazine_For_Special_Submachine_Gun_Empty.prefab
+  artifactKey: Guid(6cc25e1b147c93248987a6b4e5deee90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Class8 th(Instantiate))/Assets/Polygon-Lite Survival Collection/Prefabs/SM_Magazine_For_Special_Submachine_Gun_Empty.prefab using Guid(6cc25e1b147c93248987a6b4e5deee90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ada4ee26bd4224501d928a24ebddedef') in 0.015152 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Class8 th(Instantiate))/Assets/Polygon-Lite Survival Collection/Prefabs/SM_Handguard_For_Submachine_Gun_01.prefab
+  artifactKey: Guid(26b8206028c8ad242bf7bcfe0703439b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Class8 th(Instantiate))/Assets/Polygon-Lite Survival Collection/Prefabs/SM_Handguard_For_Submachine_Gun_01.prefab using Guid(26b8206028c8ad242bf7bcfe0703439b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ddedcaa248d64ce7599674005bf77e5') in 0.017206 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Class8 th(Instantiate))/Assets/Polygon-Lite Survival Collection/Prefabs/SM_Large_Magazine_For_Army_Pistol_Empty.prefab
+  artifactKey: Guid(3ae47a629d31e6545976a65007848e7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Class8 th(Instantiate))/Assets/Polygon-Lite Survival Collection/Prefabs/SM_Large_Magazine_For_Army_Pistol_Empty.prefab using Guid(3ae47a629d31e6545976a65007848e7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1b0a239cd250a7d29170a969c58b1ec') in 0.020300 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Class8 th(Instantiate))/Assets/Polygon-Lite Survival Collection/Prefabs/SM_GAS_CYLINDER_02.prefab
+  artifactKey: Guid(ab3787f757082314fb65fb7ca4552c31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Class8 th(Instantiate))/Assets/Polygon-Lite Survival Collection/Prefabs/SM_GAS_CYLINDER_02.prefab using Guid(ab3787f757082314fb65fb7ca4552c31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9945e742d18ecc01eaab6ff990c57a20') in 0.014366 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Class8 th(Instantiate))/Assets/Polygon-Lite Survival Collection/Prefabs/SM_Chuck_Pistol_Box_9.19.prefab
+  artifactKey: Guid(260b181a36214d94d9a2e9929947e034) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Class8 th(Instantiate))/Assets/Polygon-Lite Survival Collection/Prefabs/SM_Chuck_Pistol_Box_9.19.prefab using Guid(260b181a36214d94d9a2e9929947e034) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b6fd10cb18d95fde0c4d048f072f33f') in 0.012847 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Class8 th(Instantiate))/Assets/Polygon-Lite Survival Collection/Prefabs/SM_Collimator_Sight_B_01.prefab
+  artifactKey: Guid(59325158d2140a4428c7bc6d792cb605) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Class8 th(Instantiate))/Assets/Polygon-Lite Survival Collection/Prefabs/SM_Collimator_Sight_B_01.prefab using Guid(59325158d2140a4428c7bc6d792cb605) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25860e78eb3eb0e36a30f852f0dd84d7') in 0.013368 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Class8 th(Instantiate))/Assets/Polygon-Lite Survival Collection/Prefabs/SM_Camping_Axe.prefab
+  artifactKey: Guid(c78b2f6da8c496044acf68bbb77bee45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Class8 th(Instantiate))/Assets/Polygon-Lite Survival Collection/Prefabs/SM_Camping_Axe.prefab using Guid(c78b2f6da8c496044acf68bbb77bee45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc8cc3721d268893b31f5a9423900872') in 0.013590 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 4.978735 seconds.
+  path: Assets/Class8 th(Instantiate))/Assets/2DIcons/Icons/Flashlight_1.png
+  artifactKey: Guid(43d27c85f3039924795605d5a5782ba5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Class8 th(Instantiate))/Assets/2DIcons/Icons/Flashlight_1.png using Guid(43d27c85f3039924795605d5a5782ba5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bec2f6377bb77dc847a5a117344932eb') in 0.033028 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Class6th(User Interface)/Asset/Fantasy Wooden GUI  Free/normal_ui_set A/UI board Large Set.png
-  artifactKey: Guid(90a2dde0942123c4ebb9c4af580c5818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Class6th(User Interface)/Asset/Fantasy Wooden GUI  Free/normal_ui_set A/UI board Large Set.png using Guid(90a2dde0942123c4ebb9c4af580c5818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '962e453be6426da5e03bdac8d3b66be8') in 0.023616 seconds
+  Time since last request: 34.688625 seconds.
+  path: Assets/Class8 th(Instantiate))/Assets/Polygon-Lite Survival Collection/Models/Assembled_Tent_A.fbx
+  artifactKey: Guid(f94c2828f003a00409630826d3f03b5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Class8 th(Instantiate))/Assets/Polygon-Lite Survival Collection/Models/Assembled_Tent_A.fbx using Guid(f94c2828f003a00409630826d3f03b5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e72f4346cb0f13836c61acad7fbeb47') in 0.027307 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Class8 th(Instantiate))/Assets/Polygon-Lite Survival Collection/Models/SM_Muzzle_Brake_Compensator_01.fbx
+  artifactKey: Guid(3dc1c43c6efc435428abe80349244466) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Class8 th(Instantiate))/Assets/Polygon-Lite Survival Collection/Models/SM_Muzzle_Brake_Compensator_01.fbx using Guid(3dc1c43c6efc435428abe80349244466) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d67743e8609a7db01e94f0fcc67dda2') in 0.017838 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Class8 th(Instantiate))/Assets/Polygon-Lite Survival Collection/Models/SM_FIREWOOD_LAYING.fbx
+  artifactKey: Guid(68101e52a9abd4c4ca4428f1d43fab7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Class8 th(Instantiate))/Assets/Polygon-Lite Survival Collection/Models/SM_FIREWOOD_LAYING.fbx using Guid(68101e52a9abd4c4ca4428f1d43fab7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a01943bbbc316c5d9f7b1a4cb6a27dd5') in 0.021126 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Class8 th(Instantiate))/Assets/Polygon-Lite Survival Collection/Models/SM_Tactical_Block.fbx
+  artifactKey: Guid(f9a7df9a690a1bc4e90e9786a384bfeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Class8 th(Instantiate))/Assets/Polygon-Lite Survival Collection/Models/SM_Tactical_Block.fbx using Guid(f9a7df9a690a1bc4e90e9786a384bfeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34fa21a4677e7aab5a268482b345f7cb') in 0.020319 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Class8 th(Instantiate))/Assets/Polygon-Lite Survival Collection/Models/SM_Magazine_For_Army_Pistol.fbx
+  artifactKey: Guid(faf35e45031de1744b38f392782c3d72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Class8 th(Instantiate))/Assets/Polygon-Lite Survival Collection/Models/SM_Magazine_For_Army_Pistol.fbx using Guid(faf35e45031de1744b38f392782c3d72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad4a71f5e5432196acc1288ca7ca1a59') in 0.017602 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Class8 th(Instantiate))/Assets/Polygon-Lite Survival Collection/Models/SM_Camping_Knife.fbx
+  artifactKey: Guid(04bada0946472ac4f9a2b0e9d6da6dcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Class8 th(Instantiate))/Assets/Polygon-Lite Survival Collection/Models/SM_Camping_Knife.fbx using Guid(04bada0946472ac4f9a2b0e9d6da6dcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '251e315c38344dbc45cc13a3b419316f') in 0.016898 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Class8 th(Instantiate))/Assets/Polygon-Lite Survival Collection/Models/SM_Vertical_Handle_01.fbx
+  artifactKey: Guid(51b42342764a8ba418185d66d603b6aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Class8 th(Instantiate))/Assets/Polygon-Lite Survival Collection/Models/SM_Vertical_Handle_01.fbx using Guid(51b42342764a8ba418185d66d603b6aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05dd1f75348cd69a55399b633356ecda') in 0.018036 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Class8 th(Instantiate))/Assets/Polygon-Lite Survival Collection/Models/Meat_03.fbx
+  artifactKey: Guid(2e60549f5f9a890408480516a8fda91d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Class8 th(Instantiate))/Assets/Polygon-Lite Survival Collection/Models/Meat_03.fbx using Guid(2e60549f5f9a890408480516a8fda91d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8dcbf6716476f34939af3d536ed0bd7b') in 0.017702 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Class8 th(Instantiate))/Assets/Polygon-Lite Survival Collection/Models/SM_Barrel_Closed_01_A.fbx
+  artifactKey: Guid(5268200bc6db80845af09eb0823e211e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Class8 th(Instantiate))/Assets/Polygon-Lite Survival Collection/Models/SM_Barrel_Closed_01_A.fbx using Guid(5268200bc6db80845af09eb0823e211e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8998b947053c85b8e594bbd7459fd5d3') in 0.019044 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Class8 th(Instantiate))/Assets/Polygon-Lite Survival Collection/Models/SM_Handguard_For_Submachine_Gun_01.fbx
+  artifactKey: Guid(0e80d84d1c2989c49ba3263d9a827506) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Class8 th(Instantiate))/Assets/Polygon-Lite Survival Collection/Models/SM_Handguard_For_Submachine_Gun_01.fbx using Guid(0e80d84d1c2989c49ba3263d9a827506) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c23df06fdb60fa582a7b1a66325a1a31') in 0.017612 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Class8 th(Instantiate))/Assets/Polygon-Lite Survival Collection/Models/SM_Army_Pistol.fbx
+  artifactKey: Guid(1cc03cbb51606e04faa898feb8fab8e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Class8 th(Instantiate))/Assets/Polygon-Lite Survival Collection/Models/SM_Army_Pistol.fbx using Guid(1cc03cbb51606e04faa898feb8fab8e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '840fd209d0313830e88b90e237b266c4') in 0.045203 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 22
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Class8 th(Instantiate))/Assets/Polygon-Lite Survival Collection/Models/Flask.fbx
+  artifactKey: Guid(0c70a1c8c591d1f4caf785297bccc393) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Class8 th(Instantiate))/Assets/Polygon-Lite Survival Collection/Models/Flask.fbx using Guid(0c70a1c8c591d1f4caf785297bccc393) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47755d50d62fae316fbb91dd0a32a8cb') in 0.017417 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Class8 th(Instantiate))/Assets/Polygon-Lite Survival Collection/Models/SM_Special_Submachine_Gun_Clean.fbx
+  artifactKey: Guid(77fd3f23017f637479f20255333ee7b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Class8 th(Instantiate))/Assets/Polygon-Lite Survival Collection/Models/SM_Special_Submachine_Gun_Clean.fbx using Guid(77fd3f23017f637479f20255333ee7b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b1d3a204d44d770956d52d5bb178dd7') in 0.054037 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 34
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Class8 th(Instantiate))/Assets/Polygon-Lite Survival Collection/Models/SM_Pallet_01.fbx
+  artifactKey: Guid(23812c7450364f348b94df111a8a6213) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Class8 th(Instantiate))/Assets/Polygon-Lite Survival Collection/Models/SM_Pallet_01.fbx using Guid(23812c7450364f348b94df111a8a6213) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c75f9614e7459a1e6c055f2bb019832d') in 0.017561 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Class8 th(Instantiate))/Assets/Polygon-Lite Survival Collection/Models/SM_Large_Magazine_For_Army_Pistol_Empty.fbx
+  artifactKey: Guid(e0c6bd01faa27d641885eceefda2b6b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Class8 th(Instantiate))/Assets/Polygon-Lite Survival Collection/Models/SM_Large_Magazine_For_Army_Pistol_Empty.fbx using Guid(e0c6bd01faa27d641885eceefda2b6b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27ca5797e72804027e47b1d46189be14') in 0.017488 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Class8 th(Instantiate))/Assets/Polygon-Lite Survival Collection/Models/SM_Log_laying.fbx
+  artifactKey: Guid(74eba7947f3105d4492bd23c4a539f99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Class8 th(Instantiate))/Assets/Polygon-Lite Survival Collection/Models/SM_Log_laying.fbx using Guid(74eba7947f3105d4492bd23c4a539f99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1de6fd07635dee0a466f8901da2df71b') in 0.018323 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: 스레드 종료 또는 응용 프로그램 요청 때문에 I/O 작업이 취소되었습니다.
 AssetImportWorker is now disconnected from the server

@@ -15,7 +15,7 @@ C:/Users/Administrator/Desktop/game-engine/Game
 -logFile
 Logs/AssetImportWorker3.log
 -srvPort
-50691
+50620
 Successfully changed project path to: C:/Users/Administrator/Desktop/game-engine/Game
 C:/Users/Administrator/Desktop/game-engine/Game
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,12 +49,12 @@ C:/Users/Administrator/Desktop/game-engine/Game
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [6944] Host "[IP] 192.168.0.44 [Port] 0 [Flags] 2 [Guid] 3267712287 [EditorId] 3267712287 [Version] 1048832 [Id] WindowsEditor(7,I-03) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [8536] Host "[IP] 192.168.0.44 [Port] 0 [Flags] 2 [Guid] 1682334578 [EditorId] 1682334578 [Version] 1048832 [Id] WindowsEditor(7,I-03) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [6944] Host "[IP] 192.168.0.44 [Port] 0 [Flags] 2 [Guid] 3267712287 [EditorId] 3267712287 [Version] 1048832 [Id] WindowsEditor(7,I-03) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [8536] Host "[IP] 192.168.0.44 [Port] 0 [Flags] 2 [Guid] 1682334578 [EditorId] 1682334578 [Version] 1048832 [Id] WindowsEditor(7,I-03) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 15 workers.
-Refreshing native plugins compatible for Editor in 6.67 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 4.94 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.20f1 (61c2feb0970d)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/Resources/UnitySubsystems
@@ -70,20 +70,20 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56708
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56156
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.005009 seconds.
-- Loaded All Assemblies, in  0.369 seconds
+Registered in 0.005812 seconds.
+- Loaded All Assemblies, in  0.341 seconds
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 1741 ms
+Android Extension - Scanning For ADB Devices 172 ms
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  2.074 seconds
-Domain Reload Profiling: 2442ms
-	BeginReloadAssembly (124ms)
+- Finished resetting the current domain, in  0.469 seconds
+Domain Reload Profiling: 810ms
+	BeginReloadAssembly (118ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
@@ -91,26 +91,26 @@ Domain Reload Profiling: 2442ms
 		CreateAndSetChildDomain (1ms)
 	RebuildCommonClasses (30ms)
 	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (50ms)
-	LoadAllAssembliesAndSetupDomain (155ms)
-		LoadAssemblies (123ms)
+	initialDomainReloadingComplete (47ms)
+	LoadAllAssembliesAndSetupDomain (136ms)
+		LoadAssemblies (117ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (153ms)
-			TypeCache.Refresh (152ms)
-				TypeCache.ScanAssembly (139ms)
+		AnalyzeDomain (134ms)
+			TypeCache.Refresh (133ms)
+				TypeCache.ScanAssembly (121ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (2074ms)
+	FinalizeReload (469ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (2014ms)
+		SetupLoadedEditorAssemblies (417ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (1836ms)
+			InitializePlatformSupportModulesInManaged (260ms)
 			SetLoadedEditorAssemblies (4ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (2ms)
-			ProcessInitializeOnLoadAttributes (120ms)
-			ProcessInitializeOnLoadMethodAttributes (52ms)
+			ProcessInitializeOnLoadAttributes (105ms)
+			ProcessInitializeOnLoadMethodAttributes (45ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -118,8 +118,8 @@ Domain Reload Profiling: 2442ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.810 seconds
-Refreshing native plugins compatible for Editor in 2.06 ms, found 3 plugins.
+- Loaded All Assemblies, in  0.554 seconds
+Refreshing native plugins compatible for Editor in 1.72 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Package Manager log level set to [2]
@@ -127,47 +127,47 @@ Package Manager log level set to [2]
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.908 seconds
-Domain Reload Profiling: 1718ms
-	BeginReloadAssembly (160ms)
+- Finished resetting the current domain, in  0.758 seconds
+Domain Reload Profiling: 1312ms
+	BeginReloadAssembly (130ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (5ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (27ms)
-	RebuildCommonClasses (37ms)
-	RebuildNativeTypeToScriptingClass (15ms)
-	initialDomainReloadingComplete (82ms)
-	LoadAllAssembliesAndSetupDomain (515ms)
-		LoadAssemblies (412ms)
+		CreateAndSetChildDomain (19ms)
+	RebuildCommonClasses (30ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (36ms)
+	LoadAllAssembliesAndSetupDomain (345ms)
+		LoadAssemblies (258ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (200ms)
-			TypeCache.Refresh (179ms)
-				TypeCache.ScanAssembly (153ms)
-			ScanForSourceGeneratedMonoScriptInfo (15ms)
-			ResolveRequiredComponents (5ms)
-	FinalizeReload (909ms)
+		AnalyzeDomain (165ms)
+			TypeCache.Refresh (147ms)
+				TypeCache.ScanAssembly (131ms)
+			ScanForSourceGeneratedMonoScriptInfo (13ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (759ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (743ms)
+		SetupLoadedEditorAssemblies (624ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (24ms)
+			InitializePlatformSupportModulesInManaged (21ms)
 			SetLoadedEditorAssemblies (5ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (89ms)
-			ProcessInitializeOnLoadAttributes (598ms)
-			ProcessInitializeOnLoadMethodAttributes (22ms)
-			AfterProcessingInitializeOnLoad (4ms)
+			BeforeProcessingInitializeOnLoad (76ms)
+			ProcessInitializeOnLoadAttributes (497ms)
+			ProcessInitializeOnLoadMethodAttributes (21ms)
+			AfterProcessingInitializeOnLoad (3ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (5ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 3.12 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 1.67 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3104 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 32 unused Assets / (57.1 KB). Loaded Objects now: 3574.
-Memory consumption went from 133.9 MB to 133.8 MB.
-Total: 7.012000 ms (FindLiveObjects: 0.382300 ms CreateObjectMapping: 0.364200 ms MarkObjects: 6.058100 ms  DeleteObjects: 0.205900 ms)
+Unloading 3106 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 32 unused Assets / (57.2 KB). Loaded Objects now: 3576.
+Memory consumption went from 134.1 MB to 134.0 MB.
+Total: 3.697100 ms (FindLiveObjects: 0.250400 ms CreateObjectMapping: 0.209300 ms MarkObjects: 3.082200 ms  DeleteObjects: 0.154300 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -184,52 +184,140 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 402.337328 seconds.
-  path: Assets/Class6th(User Interface)/Asset/Fantasy Wooden GUI  Free/normal_ui_set A/TextBTN_Cancel_Pressed.png
-  artifactKey: Guid(9494e936ef153d148aaddfa6db5fb773) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Class6th(User Interface)/Asset/Fantasy Wooden GUI  Free/normal_ui_set A/TextBTN_Cancel_Pressed.png using Guid(9494e936ef153d148aaddfa6db5fb773) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c909bf4112aec8bb90c8dda4ccc54357') in 0.121966 seconds
+  Time since last request: 1514.034909 seconds.
+  path: Assets/Class8 th(Instantiate))/Assets/2DIcons/Icons/Lantern.png
+  artifactKey: Guid(755e67548b354db468ed2102f00602fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Class8 th(Instantiate))/Assets/2DIcons/Icons/Lantern.png using Guid(755e67548b354db468ed2102f00602fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ce94bca9e5f470639dfa73993445610') in 0.075010 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000049 seconds.
-  path: Assets/Class6th(User Interface)/Asset/Fantasy Wooden GUI  Free/normal_ui_set A/notice.png
-  artifactKey: Guid(86adaa715d8969e48975ca3343ddaedd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Class6th(User Interface)/Asset/Fantasy Wooden GUI  Free/normal_ui_set A/notice.png using Guid(86adaa715d8969e48975ca3343ddaedd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a3a0a289a7121e97f743fa68a41141c') in 0.022709 seconds
+  Time since last request: 34.644724 seconds.
+  path: Assets/Class8 th(Instantiate))/Assets/Polygon-Lite Survival Collection/Models/Bonfire_01.fbx
+  artifactKey: Guid(c498a631fed69f64ea4bf26cf636f1d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Class8 th(Instantiate))/Assets/Polygon-Lite Survival Collection/Models/Bonfire_01.fbx using Guid(c498a631fed69f64ea4bf26cf636f1d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61c70061fa6b6d88b507d0108ff3a84c') in 0.056986 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Class8 th(Instantiate))/Assets/Polygon-Lite Survival Collection/Models/SM_Fishing_Rod.fbx
+  artifactKey: Guid(a299e3c11d167104da0e6fa164084e76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Class8 th(Instantiate))/Assets/Polygon-Lite Survival Collection/Models/SM_Fishing_Rod.fbx using Guid(a299e3c11d167104da0e6fa164084e76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ad4d56dc7143e133bd2f60066d65d28') in 0.037251 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Class8 th(Instantiate))/Assets/Polygon-Lite Survival Collection/Models/SM_Chainsaw.fbx
+  artifactKey: Guid(b5f61d261ce1bad449dd30fb4ee37591) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Class8 th(Instantiate))/Assets/Polygon-Lite Survival Collection/Models/SM_Chainsaw.fbx using Guid(b5f61d261ce1bad449dd30fb4ee37591) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1752f34759fc0e9977b2959074aaf47') in 0.018244 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Class8 th(Instantiate))/Assets/Polygon-Lite Survival Collection/Models/SM_Cartridges_9.19.fbx
+  artifactKey: Guid(f39cf7bb174f03f49b34f4af4d06cebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Class8 th(Instantiate))/Assets/Polygon-Lite Survival Collection/Models/SM_Cartridges_9.19.fbx using Guid(f39cf7bb174f03f49b34f4af4d06cebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb9bc40952f5a5ea68e02a0ed530c0a9') in 0.018698 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Class8 th(Instantiate))/Assets/Polygon-Lite Survival Collection/Models/Meat_02.fbx
+  artifactKey: Guid(b0d616cdeed04b140a3fbb3063f5beea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Class8 th(Instantiate))/Assets/Polygon-Lite Survival Collection/Models/Meat_02.fbx using Guid(b0d616cdeed04b140a3fbb3063f5beea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '411d7c5ac94d7ef0f52e43af2ec0924f') in 0.020728 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Class8 th(Instantiate))/Assets/Polygon-Lite Survival Collection/Models/SM_GAS_CYLINDER_02.fbx
+  artifactKey: Guid(5270a6afc871e2349a22b548c09c19b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Class8 th(Instantiate))/Assets/Polygon-Lite Survival Collection/Models/SM_GAS_CYLINDER_02.fbx using Guid(5270a6afc871e2349a22b548c09c19b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c74a1830bf408a9169cb516e0ddb3ec') in 0.019617 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Class8 th(Instantiate))/Assets/Polygon-Lite Survival Collection/Models/SM_Magazine_For_Army_Pistol_Empty.fbx
+  artifactKey: Guid(1f9f83a8c0bf9e9498756f4454978095) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Class8 th(Instantiate))/Assets/Polygon-Lite Survival Collection/Models/SM_Magazine_For_Army_Pistol_Empty.fbx using Guid(1f9f83a8c0bf9e9498756f4454978095) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '217b3cd6450f5a6b37237b37244aaf74') in 0.017648 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
 ========================================================================
 Received Import Request.
   Time since last request: 0.000018 seconds.
-  path: Assets/Class6th(User Interface)/Asset/Fantasy Wooden GUI  Free/normal_ui_set A/TextBTN_Medium_Pressed.png
-  artifactKey: Guid(047b929beb10565479851d39b452dfb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Class6th(User Interface)/Asset/Fantasy Wooden GUI  Free/normal_ui_set A/TextBTN_Medium_Pressed.png using Guid(047b929beb10565479851d39b452dfb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8885f505adbac50c1eddb6f041eb6f0') in 0.026182 seconds
+  path: Assets/Class8 th(Instantiate))/Assets/Polygon-Lite Survival Collection/Models/SM_Sledgehammer.fbx
+  artifactKey: Guid(e66d5815e4e8f524898a9293b5469855) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Class8 th(Instantiate))/Assets/Polygon-Lite Survival Collection/Models/SM_Sledgehammer.fbx using Guid(e66d5815e4e8f524898a9293b5469855) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26c694002b04fe2eff4907f8eeb6ee42') in 0.017922 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Class8 th(Instantiate))/Assets/Polygon-Lite Survival Collection/Models/SM_CEMENT_01.fbx
+  artifactKey: Guid(93f15df65e3899543be6630b3c527a07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Class8 th(Instantiate))/Assets/Polygon-Lite Survival Collection/Models/SM_CEMENT_01.fbx using Guid(93f15df65e3899543be6630b3c527a07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2d4a9153a6658ed6db54028b601bc27') in 0.020463 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Class8 th(Instantiate))/Assets/Polygon-Lite Survival Collection/Models/SM_Handguard_For_Submachine_Gun_02.fbx
+  artifactKey: Guid(d4cec953f6eb0254584387bd0e9dd253) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Class8 th(Instantiate))/Assets/Polygon-Lite Survival Collection/Models/SM_Handguard_For_Submachine_Gun_02.fbx using Guid(d4cec953f6eb0254584387bd0e9dd253) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c9ce068f664df51a037c7583bc8b41a') in 0.021590 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
 ========================================================================
 Received Import Request.
   Time since last request: 0.000019 seconds.
-  path: Assets/Class6th(User Interface)/Asset/Fantasy Wooden GUI  Free/normal_ui_set A/TextBTN_Cancel.png
-  artifactKey: Guid(480144379cc9c7d47a8e19f58b0e6ee3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Class6th(User Interface)/Asset/Fantasy Wooden GUI  Free/normal_ui_set A/TextBTN_Cancel.png using Guid(480144379cc9c7d47a8e19f58b0e6ee3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2a96fa0d9e47b5905de23e7b068846f') in 0.027432 seconds
+  path: Assets/Class8 th(Instantiate))/Assets/Polygon-Lite Survival Collection/Models/SM_GAS_CYLINDER_01.fbx
+  artifactKey: Guid(087349fd802939e4c985a1f8c3ee6426) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Class8 th(Instantiate))/Assets/Polygon-Lite Survival Collection/Models/SM_GAS_CYLINDER_01.fbx using Guid(087349fd802939e4c985a1f8c3ee6426) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e810645fe49d2584a2a9e9acb282f99') in 0.016518 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
+Number of asset objects unloaded after import = 7
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Class6th(User Interface)/Asset/Fantasy Wooden GUI  Free/normal_ui_set A/TextBTN_Big_Pressed.png
-  artifactKey: Guid(d6a1673a31851fd4395c287261da36e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Class6th(User Interface)/Asset/Fantasy Wooden GUI  Free/normal_ui_set A/TextBTN_Big_Pressed.png using Guid(d6a1673a31851fd4395c287261da36e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5ee1cdc07ce174460c101dce191670e') in 0.032594 seconds
+  Time since last request: 0.000013 seconds.
+  path: Assets/Class8 th(Instantiate))/Assets/Polygon-Lite Survival Collection/Models/Canned_food_B_01.fbx
+  artifactKey: Guid(7e8c8f566be89cc48beb36361168019c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Class8 th(Instantiate))/Assets/Polygon-Lite Survival Collection/Models/Canned_food_B_01.fbx using Guid(7e8c8f566be89cc48beb36361168019c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b90d0afd6f636b9d9477a73ed6ecd33c') in 0.019202 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
+Number of asset objects unloaded after import = 7
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Class6th(User Interface)/Asset/Fantasy Wooden GUI  Free/normal_ui_set A/UI board Medium stone.png
-  artifactKey: Guid(9a6560e5bacb40847bb1b879ede354fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Class6th(User Interface)/Asset/Fantasy Wooden GUI  Free/normal_ui_set A/UI board Medium stone.png using Guid(9a6560e5bacb40847bb1b879ede354fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1830d5ec322d4d2c1feeda3062e85254') in 0.042194 seconds
+  Time since last request: 0.000015 seconds.
+  path: Assets/Class8 th(Instantiate))/Assets/Polygon-Lite Survival Collection/Models/SM_Butt_Of_The_Rifle_For_Special_Submachine_Gun_Clean.fbx
+  artifactKey: Guid(92dc1f4fb14f0994d9dfb2a4ed551c9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Class8 th(Instantiate))/Assets/Polygon-Lite Survival Collection/Models/SM_Butt_Of_The_Rifle_For_Special_Submachine_Gun_Clean.fbx using Guid(92dc1f4fb14f0994d9dfb2a4ed551c9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee56c1d90279f187e100592c82969b84') in 0.016601 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Class8 th(Instantiate))/Assets/Polygon-Lite Survival Collection/Models/SM_Muffler_04.fbx
+  artifactKey: Guid(ff1ba4cc01c75b84bbe33098192de74c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Class8 th(Instantiate))/Assets/Polygon-Lite Survival Collection/Models/SM_Muffler_04.fbx using Guid(ff1ba4cc01c75b84bbe33098192de74c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7550541b5f58d813f0159a5440059a7') in 0.016917 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Class8 th(Instantiate))/Assets/Polygon-Lite Survival Collection/Models/SM_FLATCHE.fbx
+  artifactKey: Guid(34aa33e6e98a0ab46aacad99f49ade21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Class8 th(Instantiate))/Assets/Polygon-Lite Survival Collection/Models/SM_FLATCHE.fbx using Guid(34aa33e6e98a0ab46aacad99f49ade21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4cb5dceefa9c19f80ec6c2b74988f00') in 0.016166 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Class8 th(Instantiate))/Assets/Polygon-Lite Survival Collection/Models/Medical_Kit.fbx
+  artifactKey: Guid(c6468f1b90f616a449318c252b93051f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Class8 th(Instantiate))/Assets/Polygon-Lite Survival Collection/Models/Medical_Kit.fbx using Guid(c6468f1b90f616a449318c252b93051f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed68e75c52cbfc74ad7aa4b902de8cea') in 0.022482 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: 스레드 종료 또는 응용 프로그램 요청 때문에 I/O 작업이 취소되었습니다.
 AssetImportWorker is now disconnected from the server
