@@ -22,10 +22,6 @@ public class Knight : MonoBehaviour
          
     }
 
-    void Start()
-    {
-     
-    }
 
     public void Walk()
     {
